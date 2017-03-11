@@ -1,0 +1,44 @@
+  body{
+       margin:0;
+       }
+   ul { 
+       list-style-type: none;
+       margin:  0;
+       padding:  0;
+       position:  fixed;
+       top: 0;
+       width: 100%;
+       background-color:blue;
+       }
+
+   li{
+       float:right;
+       display: block;
+       padding: 10px 30px;
+       text-align: center;
+       background-color:#FFFFFF;
+       }
+
+li:hover:not(.active){
+       color:yellow;
+       }
+
+.active{
+       background-color:black;
+       color:white;
+       }
+
+   .ww{
+       padding: 50px;
+       margin-top:10px;
+       width:40%;
+       height:150px;
+       }
+
+   .box{
+       border: 2px solid;
+       width:30%;
+       position: relative;
+       left: 700px;
+       text-align:center;
+       }
