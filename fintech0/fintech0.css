@@ -9,7 +9,7 @@
        position:  fixed;
        top: 0;
        width: 100%;
-       background-image:url("https://www.flickr.com/photos/135303216@N03/33374741376/in/album-72157681365720305/");
+       background: rgba(0%,0%,0%,0.4);
        }
 
    li{
@@ -17,16 +17,15 @@
        display: block;
        padding: 10px 30px;
        text-align: center;
-       background-color:#FFFFFF;
+       color:#FFFFFF;
        }
 
 li:hover:not(.active){
-       color:yellow;
+       color:lightblue;
        }
 
 .active{
-       background-color:black;
-       color:white;
+       color:black;
        }
 
    .ww{
