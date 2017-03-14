@@ -15,14 +15,15 @@
        position:  fixed;
        top: 0;
        width: 100%;
-       height:90px;
-       background-color:#5D5D5D; 
-       opacity:0.46;
+       height:80px;
+       background-color:#5D5D5D 0.46;
+       box-shadow:0 3px 2px;
        }
 
    li{
        font-size:24px;
        float:right;
+       height:100%;
        display: block;
        padding: 10px 30px;
        text-align: center;
@@ -57,14 +58,16 @@ li:hover:not(.active){
       }
 
    input{
+     font-size:16px;
      width:90%;
      padding:12px;
      margin:15px;
-     box-shadow:5px 5px 3px;
+     box-shadow:5px 5px 3px, -5px -5px 3px;
       }
    
    input[type="text"]{
-     background-color:#000000;
+     color:#000000;
+     background-color:#CCCCCC;
      border:2px solid #ffffff;
      border-radius:20px;
    }
@@ -72,6 +75,6 @@ li:hover:not(.active){
    input[type="submit"]{
      border:none;
      border-radius:20px;
-     background-color:#ffff99;
+     background-color:#ffffb3;
    }
  
