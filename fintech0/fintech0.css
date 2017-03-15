@@ -2,6 +2,46 @@
     box-sizing:border-box;
   }
 
+
+
+  @keyframes wave{
+    from{
+    transform: rotate(0deg);
+    }
+    to{
+    transform: rotate(360deg);
+    }
+  }
+  @-webkit-keyframes wave{
+    from{
+    transform: rotate(0deg);
+    }
+    to{
+    transform: rotate(360deg);
+    }
+  }
+
+div.waterwave{
+      background-color: rgba(0,255,204,0.3);
+      width:800px;
+      height:800px;
+      position:absolute;
+      top:50%;
+      left:-30%;
+      border-radius:40%;
+
+
+      animation-name: wave;
+      animation-duration:8s;
+      animation-iteration-count:infinite;
+     
+     -webkit- animation-name: wave;
+     -webkit- animation-duration:8s;
+     -webkit- animation-iteration-count:infinite;
+
+  }
+  
+  
   body{
        margin:0;
        background-image:url("back.jpg");
