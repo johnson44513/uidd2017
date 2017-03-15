@@ -46,7 +46,7 @@ li a:hover:not(.active){
        width:22%;
        height:270px;
        position:absolute;
-       right:10%;
+       right:8%;
        top:300px;
        background-color:rgba(0,0,0,0.4);
        text-align:center;
@@ -70,7 +70,7 @@ li a:hover:not(.active){
    
    input[type="text"]{
      font color:#ffffff;
-     background-color:#b3b3b3;
+     background-color:#999999;
      border:2px solid #ffffff;
      border-radius:20px;
    }
