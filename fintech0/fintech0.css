@@ -21,7 +21,7 @@
   }
 
  .waterwave{
-      background-color: rgba(0,255,204,0.3);
+      background-color: rgba(204,204,225,0.3);
       width:800px;
       height:800px;
       position:absolute;
@@ -36,14 +36,14 @@
   }
   
  #one{
-   background-color: rgba(102,102,102,0.3);
+   background-color: rgba(204,200,225,0.3);
    width:900px;
    height:800px;
    top:80%;
  }
  
  #two{
-  background-color:rgba(120,120,120,0.3);
+  background-color:rgba(200,200,220,0.3);
   width:1200px;
   height:1200px;
   top:60%;
@@ -54,6 +54,7 @@
        background-image:url("back.jpg");
        font-family: Microsoft JhengHei;
        size:1440pt,990pt;
+       overflow:hidden;
        }
 
      ul { 
