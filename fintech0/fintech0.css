@@ -21,12 +21,29 @@
     }
   }
 
-div.waterwave{
-      background-color: rgba(0,255,204,0.3);
+div.one{
+ background-color: rgba(0,255,204,0.3);
+      width:600px;
+      height:1600px;
+}
+
+
+div.two{
+ background-color: rgba(0,255,204,0.3);
+      width:700px;
+      height:110px;
+}
+
+
+div.three{
+ background-color: rgba(0,255,204,0.3);
       width:800px;
       height:800px;
+}
+div.waterwavep{
+      background-color: rgba(0,255,204,0.3);
       position:absolute;
-      top:30%;
+      top:70%;
       left:-30%;
       border-radius:40%;
 
@@ -34,11 +51,11 @@ div.waterwave{
       animation-name: wave;
       animation-duration:8s;
       animation-iteration-count:infinite;
-     
+      animation-timing-function:linear;
      -webkit- animation-name: wave;
      -webkit- animation-duration:8s;
      -webkit- animation-iteration-count:infinite;
-
+     -webkit- animation-timing-function:linear;
   }
   
   
@@ -58,7 +75,7 @@ div.waterwave{
        width: 100%;
        height:80px;
        background-color:rgba(93,93,93,0.46);
-       box-shadow:0 3px 5px #4d4d4d;
+       box-shadow:0 3px 10px #4d4d4d;
        }
 
   li a{
@@ -84,7 +101,7 @@ li a:hover:not(.active){
 
    .box{
        width:22%;
-       height:320px;
+       height:300px;
        position:absolute;
        right:8%;
        top:300px;
@@ -94,6 +111,7 @@ li a:hover:not(.active){
        }
    
   .box h2{
+      top:5%;
       color:#ffffff;
       font-size:22px;
       font-weight:bold;
@@ -105,7 +123,7 @@ li a:hover:not(.active){
      width:90%;
      padding:10px;
      margin:13px;
-     box-shadow:0 5px 5px,0 -5px 5px,5px 0 5px,-5px 0 5px;
+     box-shadow:0 5px 8px,0 -5px 8px,5px 0 8px,-5px 0 8px;
       }
    
    input[type="text"]{
