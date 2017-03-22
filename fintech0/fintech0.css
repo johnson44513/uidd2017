@@ -40,7 +40,7 @@
       width:800px;
       height:800px;
 } 
-div.waterwave{
+ .waterwave{
       position:absolute;
       top:70%;
       left:-30%;
@@ -63,7 +63,6 @@ div.waterwave{
        background-image:url("back.jpg");
        font-family: Microsoft JhengHei;
        size:1440pt,990pt;
-       overflow:hidden;
        }
 
      ul { 
