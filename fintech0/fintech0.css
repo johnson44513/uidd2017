@@ -21,21 +21,21 @@
     }
   }
 
-div #one{
+ #one{
  background-color: rgba(102,102,102,0.3);
       width:600px;
       height:1600px;
 }
 
 
-div #two{
+ #two{
  background-color: rgba(0,255,204,0.3);
       width:700px;
       height:110px;
 }
 
 
-div #three{
+ #three{
  background-color: rgba(0,255,204,0.3);
       width:800px;
       height:800px;
