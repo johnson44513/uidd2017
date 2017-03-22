@@ -122,7 +122,6 @@ li a:hover:not(.active){
       }
    
    input[type="text"]{
-     font color:#ffffff;
      font-weight:bold;
      background-color:#8c8c8c;
      border:2px solid #ffffff;
