@@ -58,7 +58,13 @@
       animation-timing-function:linear;
   }
   
-  
+ #one{
+   background-color: rgba(102,102,102,0.3);
+   width:900px;
+   height:900px;
+ }
+ 
+
   body{
        margin:0;
        background-image:url("back.jpg");
