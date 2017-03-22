@@ -21,27 +21,26 @@
     }
   }
 
-div.one{
- background-color: rgba(0,255,204,0.3);
+div #one{
+ background-color: rgba(102,102,102,0.3);
       width:600px;
       height:1600px;
 }
 
 
-div.two{
+div #two{
  background-color: rgba(0,255,204,0.3);
       width:700px;
       height:110px;
 }
 
 
-div.three{
+div #three{
  background-color: rgba(0,255,204,0.3);
       width:800px;
       height:800px;
-}
-div.waterwavep{
-      background-color: rgba(0,255,204,0.3);
+} 
+div.waterwave{
       position:absolute;
       top:70%;
       left:-30%;
@@ -64,6 +63,7 @@ div.waterwavep{
        background-image:url("back.jpg");
        font-family: Microsoft JhengHei;
        size:1440pt,990pt;
+       overflow:hidden;
        }
 
      ul { 
