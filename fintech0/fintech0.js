@@ -1,6 +1,6 @@
-$(document).ready(function{
+$(dcument).ready(function{
   $('ul').show('fast'); 
-
+  $('.box').show('slow');
 
 });
 
