@@ -1,7 +1,7 @@
-
-  $('ul').show('fast'); 
-  $('.box').show('slow');
+jQuery('document').ready(function(){
+  jQuery('ul').show('fast'); 
+  jQuery('.box').show('slow');
  
-  $('.waterwave').css('width',$('body').width()*2);
-  $('.waterwave').css('height',$('body').width()*2);
-
+  jQuery('.waterwave').css('width',$('body').width()*2);
+  jQuery('.waterwave').css('height',$('body').width()*2);
+});
