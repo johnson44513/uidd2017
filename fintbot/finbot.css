@@ -1,0 +1,10 @@
+
+.sec{
+   border-bottom: 100px solid yellow;
+   border-left: 50px solid transparent;
+   border-right: 50px solid transparent;
+   height: 0;
+   width: 100px;
+   position:absolute;
+   top:10000px;
+}
