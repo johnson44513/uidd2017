@@ -44,18 +44,24 @@
       animation-timing-function:linear;
   }
   
- #one{
+ #two{
    background-color: rgba(204,200,225,0.3);
    width:900px;
    height:800px;
    top:80%;
+   
+   animation-name: wave;
+   animation-duration:4s;
  }
  
- #two{
+ #three{
   background-color:rgba(200,200,220,0.3);
   width:1200px;
   height:1200px;
   top:60%;
+ 
+  animation-name: wave;
+  animation-duration:20s;
  }
 
   body{
