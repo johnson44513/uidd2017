@@ -2,7 +2,6 @@ $('document').ready(function(){
 
     $('.loading').hide('slow',function(){
       $('ul').show('slow');
-      $('li').show('slow');
       $('.box').show('slow');
       $('.intro').fadeIn('slow');
       $('.waterwave').show('slow');
