@@ -85,7 +85,7 @@
        overflow:hidden;
        }
 
-     ul { 
+     ul{ 
        display:none;
        list-style-type: none;
        margin:  0;
@@ -102,7 +102,6 @@
        display:none;
        font-size:18px;
        float:right;
-       display: block;
        height:80px;
        text-decoration:none;
        padding: 14px 40px;
