@@ -1,7 +1,6 @@
 $('document').ready(function(){
-  $(window).load(function(){
-    $('.loading').hide('slow');
-  });
+
+    $('.loading').hide('slow');;
     $('ul').show('slow'); 
     $('.box').show('slow');
     $('.intro').fadeIn('slow');

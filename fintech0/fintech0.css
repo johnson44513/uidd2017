@@ -6,7 +6,7 @@
     position:absolute;
     font-size:20;
     top:50vh;
-    left:50vw;
+    left:35vw;
   }
   
    
@@ -99,6 +99,7 @@
        }
 
   li a{
+       display:none;
        font-size:18px;
        float:right;
        display: block;
