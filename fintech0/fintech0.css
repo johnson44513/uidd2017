@@ -2,6 +2,15 @@
     box-sizing:border-box;
   }
 
+  .loading{
+    position:absolute;
+    font-size:20;
+    top:50vh;
+    left:50vw;
+  }
+  
+   
+
   .intro{
     display:none;
     color:#ffffff;
@@ -31,6 +40,7 @@
   }
 
  .waterwave{
+      display:none;
       background-color: rgba(204,204,225,0.3);
       width:800px;
       height:800px;
@@ -76,6 +86,7 @@
        }
 
      ul { 
+       display:none;
        list-style-type: none;
        margin:  0;
        padding:  0;
@@ -109,6 +120,7 @@ li a:hover:not(.active){
 
 
    .box{
+       display:none;
        width:22%;
        height:300px;
        position:absolute;
@@ -147,5 +159,5 @@ li a:hover:not(.active){
      border:none;
      border-radius:20px;
      background-color:#ffffb3;
-   }
+   }      
  
